@@ -10,35 +10,35 @@ namespace LargestPalindrome
     {
         static void Main(string[] args)
         {
-            var minLength = 3;
+            const int minLength = 3;
 
             // odd
-            var data1 = "madamimadam";
+            const string data1 = "madamimadam";
             var p1 = FindLargestPalindrome(data1, minLength);
 
             // even
-            var data2 = "abcdeedcba" ;
+            const string  data2 = "abcdeedcba" ;
             var p2 = FindLargestPalindrome(data2, minLength);
 
-            var data3 = "12345ablewasiereisawelba67890";
+            const string  data3 = "12345ablewasiereisawelba67890";
             var p3 = FindLargestPalindrome(data3, minLength);
 
-            var data4 = "agfatgalkfjapsotgjimohomiqrotfasdnfl;asdfjopafadf[";
+            const string  data4 = "agfatgalkfjapsotgjimohomiqrotfasdnfl;asdfjopafadf[";
             var p4 = FindLargestPalindrome(data4, minLength);
 
-            var data5 = "agfatgalkfjapsdfjopafgadfeve[";
+            const string  data5 = "agfatgalkfjapsdfjopafgadfeve[";
             var p5 = FindLargestPalindrome(data5, minLength);
 
-            var data6 = "xdadagfatgalkfjapsdfjopafgadfeve[";
+            const string  data6 = "xdadagfatgalkfjapsdfjopafgadfeve[";
             var p6 = FindLargestPalindrome(data6, minLength);
 
-            var data7 = "agfatgalkfjapsdfjopafgadfeve";
+            const string  data7 = "agfatgalkfjapsdfjopafgadfeve";
             var p7 = FindLargestPalindrome(data7, minLength);
 
-            var data8 = "dadagfatgalkfjapsdfjopafgadfeve[";
+            const string  data8 = "dadagfatgalkfjapsdfjopafgadfeve[";
             var p8 = FindLargestPalindrome(data8, minLength);
 
-            var data9 = "dadagfatgalkfimohomijapsdfjopafgadfeve[";
+            const string  data9 = "dadagfatgalkfimohomijapsdfjopafgadfeve[";
             var p9 = FindLargestPalindrome(data9, minLength);
         }
 
